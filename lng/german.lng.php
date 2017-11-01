@@ -1593,22 +1593,22 @@ $lng['customer']['letsencrypt']['description'] = 'Holt ein kostenloses Zertifika
 $lng['error']['sslredirectonlypossiblewithsslipport'] = 'Die Nutzung von Let\'s Encrypt ist nur möglich, wenn die Domain mindestens eine IP/Port-Kombination mit aktiviertem SSL zugewiesen hat.';
 $lng['error']['nowildcardwithletsencrypt'] = 'Let\'s Encrypt kann (noch) nicht mit Wildcard-Domains umgehen. Bitte den ServerAlias auf WWW setzen oder deaktivieren';
 $lng['panel']['letsencrypt'] = 'Benutzt Let\'s encrypt';
-$lng['crondesc']['cron_letsencrypt'] = 'aktualisiert Let\'s Encrypt Zertifikate';
-$lng['serversettings']['letsencryptca']['title'] = "Let's Encrypt Umgebung";
-$lng['serversettings']['letsencryptca']['description'] = "Let's Encrypt - Umgebung, welche genutzt wird um Zertifikate zu bestellen.<br><strong class=\"red\">ACHTUNG:</strong> Let's Encrypt befindet sich noch im Test";
-$lng['serversettings']['letsencryptcountrycode']['title'] = "Let's Encrypt Ländercode";
-$lng['serversettings']['letsencryptcountrycode']['description'] = "2 - stelliger Ländercode, welcher benutzt wird um Let's Encrypt - Zertifikate zu bestellen.<br><strong class=\"red\">ACHTUNG:</strong> Let's Encrypt befindet sich noch im Test";
-$lng['serversettings']['letsencryptstate']['title'] = "Let's Encrypt Bundesland";
-$lng['serversettings']['letsencryptstate']['description'] = "Bundesland, welches benutzt wird um Let's Encrypt - Zertifikate zu bestellen.<br><strong class=\"red\">ACHTUNG:</strong> Let's Encrypt befindet sich noch im Test";
-$lng['serversettings']['letsencryptchallengepath']['title'] = "Verzeichnis für Let's Encrypt challenges";
-$lng['serversettings']['letsencryptchallengepath']['description'] = "Let's Encrypt challenges werden aus diesem Verzeichnis über einen globalen Alias ausgeliefert.<br><strong class=\"red\">ACHTUNG:</strong> Let's Encrypt befindet sich noch im Test";
-$lng['serversettings']['letsencryptkeysize']['title'] = "Schlüsselgröße für neue Let's Encrypt Zertifikate";
-$lng['serversettings']['letsencryptkeysize']['description'] = "Größe des Schlüssels in Bit für neue Let's Encrypt Zertifikate.<br><strong class=\"red\">ACHTUNG:</strong> Let's Encrypt befindet sich noch im Test";
-$lng['serversettings']['letsencryptreuseold']['title'] = "Let's Encrypt Schlüssel wiederverwenden";
+$lng['crondesc']['cron_letsencrypt'] = 'aktualisiert Let\'s-Encrypt-Zertifikate';
+$lng['serversettings']['letsencryptca']['title'] = "Let's-Encrypt-Umgebung";
+$lng['serversettings']['letsencryptca']['description'] = "Let's-Encrypt-Umgebung, welche genutzt wird um Zertifikate zu bestellen.<br><strong class=\"red\">ACHTUNG:</strong> Let's Encrypt befindet sich noch im Test";
+$lng['serversettings']['letsencryptcountrycode']['title'] = "Let's-Encrypt-Ländercode";
+$lng['serversettings']['letsencryptcountrycode']['description'] = "2-stelliger Ländercode, welcher benutzt wird um Let's-Encrypt-Zertifikate zu bestellen.<br><strong class=\"red\">ACHTUNG:</strong> Let's Encrypt befindet sich noch im Test";
+$lng['serversettings']['letsencryptstate']['title'] = "Let's-Encrypt-Bundesland";
+$lng['serversettings']['letsencryptstate']['description'] = "Bundesland, welches benutzt wird um Let's-Encrypt-Zertifikate zu bestellen.<br><strong class=\"red\">ACHTUNG:</strong> Let's Encrypt befindet sich noch im Test";
+$lng['serversettings']['letsencryptchallengepath']['title'] = "Verzeichnis für Let's-Encrypt-Challenges";
+$lng['serversettings']['letsencryptchallengepath']['description'] = "Let's-Encrypt-Challenges werden aus diesem Verzeichnis über einen globalen Alias ausgeliefert.<br><strong class=\"red\">ACHTUNG:</strong> Let's Encrypt befindet sich noch im Test";
+$lng['serversettings']['letsencryptkeysize']['title'] = "Schlüsselgröße für neue Let's-Encrypt-Zertifikate";
+$lng['serversettings']['letsencryptkeysize']['description'] = "Größe des Schlüssels in Bit für neue Let's-Encrypt-Zertifikate.<br><strong class=\"red\">ACHTUNG:</strong> Let's Encrypt befindet sich noch im Test";
+$lng['serversettings']['letsencryptreuseold']['title'] = "Let's-Encrypt-Schlüssel wiederverwenden";
 $lng['serversettings']['letsencryptreuseold']['description'] = "Wenn dies aktiviert ist, wird der alte Schlüssel bei jeder Verlängerung verwendet, andernfalls wird ein neues Paar generiert.<br><strong class=\"red\">ACHTUNG:</strong> Let's Encrypt befindet sich noch im Test";
 $lng['serversettings']['leenabled']['title'] = "Let's Encrypt verwenden";
-$lng['serversettings']['leenabled']['description'] = "Wenn dies aktiviert ist, können Kunden durch Froxlor automatisch generierte und verlängerbare Let's Encrypt SSL-Zertifikate für Domains mit SSL IP/port nutzen.<br /><br />Bitte die Webserver-Konfiguration beachten wenn aktiviert, da dieses Feature eine spezielle Konfiguration benötigt.";
-$lng['domains']['ssl_redirect_temporarilydisabled'] = "<br>Die SSL-Umleitung ist, während ein neues Let's Encrypt - Zertifikat erstellt wird, temporär deaktiviert. Die Umleitung wird nach der Zertifikatserstellung wieder aktiviert.";
+$lng['serversettings']['leenabled']['description'] = "Wenn dies aktiviert ist, können Kunden durch Froxlor automatisch generierte und verlängerbare Let's-Encrypt-SSL-Zertifikate für Domains mit SSL IP/Port nutzen.<br /><br />Bitte die Webserver-Konfiguration beachten wenn aktiviert, da dieses Feature eine spezielle Konfiguration benötigt.";
+$lng['domains']['ssl_redirect_temporarilydisabled'] = "<br>Die SSL-Umleitung ist temporär deaktiviert während ein neues Let's-Encrypt-Zertifikat erstellt wird. Die Umleitung wird nach der Zertifikatserstellung wieder aktiviert.";
 
 // Autoupdate
 $lng['admin']['autoupdate'] = 'Auto-Update';
